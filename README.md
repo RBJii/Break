@@ -132,31 +132,31 @@ int main() {
 	}
 	ok=ii;
 	count=ii+1;
-	
+ 
 	for(i=0;i<siz;i++)
 	{
 		po=ii;
-		
+ 
 		for(k=po;k>=count-ok-1;k--)
 		{
 			for(l=k;l>0;l--)
 			{
 				a2[++ii]=a2[k]+a2[k-l];
-				
-				
+ 
+ 
 			}
 			for(l=k;l>0;l--)
 			{
 				a2[++ii]=a2[k]+(2*(a2[k-l]));
-				
-				
+ 
+ 
 			}
 		}
 		count=ii;
 		ok=po;
 }
 	size=ii+1;
-   
+ 
 	for(i=0;i<size;i++)
 	{
 		for(d=0;d<count1;d++)
@@ -184,9 +184,13 @@ int main() {
 	}
 	printf("%d\n",a1[count1-1]);
 	}
-	
+ 
 	return 0;
 }
+ 
+ 
+Success  
+
 
 
 
